@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 400.5%;
+  margin-top: 30px;
+  line-height: 2;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 0px;
+}
+
+#head_P{
+  margin-top: 1.8em;
+  font-size: 1.4em;
+  font-weight:bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  margin-top: 1.5em;
+  font-size: 1em;
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  background-color: #f7fbe1;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 7%;
+}
+
+h2{
+
+  color:#66BFBF;
+  text-decoration: underline;
+  line-height: 2;
+}
+
+
+
+h3 {
+    color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top_img {}
+
+.top_container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #ebfffa;
+}
+
+.top_cloud {
+  position: absolute;
+
+  right: 15%;
+  top: 12%;
+}
+
+.bottom_cloud {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.profile {
+  margin: 10px;
+}
+
+.profile_head {
+  margin-top: 50.9167px;
+}
+
+.profile_img {
+  width: 250px;
+  margin-top: 7%;
+}
+
+.profile_para {
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+.profile_para:hover span:nth-child(1) {
+  font-family: 'Fondamento', cursive;
+  font-size: 20px;
+}
+
+.profile_para:hover span {
+  color: #343434;
+  text-shadow: 0 0 10px #343434,
+    0 0 20px #343434,
+    0 0 40px #343434,
+    0 0 80px #343434,
+    0 0 120px #343434,
+    0 0 160px #343434;
+}
+
+.skills {
+  background-color: #fafafa;
+}
+
+.skill_row {
+  position: relative;
+}
+
+.skill_img {
+  width: 206px;
+}
+
+.skill_div1 {
+  position: relative;
+  display: inline-block;
+  width: 500px;
+}
+
+
+.none_style {
+  list-style-type: none;
+  text-align: left;
+
+}
+
+.list_skill_stars {
+  width: 18px;
+}
+
+
+.span_skilldiv1{
+  position: absolute;
+  right: 10px;
+
+}
+.hoverskill:hover span{
+  transition: 0.4s;
+  width: 100px;
+  margin-right: 20px;
+}
+.skillrow2{
+  width: 500px;
+}
+.mail_contact{
+  height: 80px;
+}
+.mail_contact:hover{
+  transition: 0.3s;
+  height: 100px;
+}
+.Achiements{
+  background-color: #fafafa;
+
+}
+.abc{
+  position: relative;
+  display: inline-block;
+  width: 500px;
+}
